@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\qi\Messaging\qi.messaging.csproj" />
+    <ProjectReference Include="..\qi-messaging\qi.messaging.csproj" />
   </ItemGroup>
 
 </Project>

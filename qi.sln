@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qi.service", "qi-service\qi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qi.client", "qi-client\qi.client.csproj", "{E4DFE6A4-50A8-4ABA-BFDE-E96297B96F8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qi.messaging", "qi\Messaging\qi.messaging.csproj", "{81F7E9A1-FAC3-4AEA-BA9E-CE2CB19B4147}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qi.messaging", "qi-messaging\qi.messaging.csproj", "{81F7E9A1-FAC3-4AEA-BA9E-CE2CB19B4147}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qi.tests", "qi-tests\qi.tests.csproj", "{FDAD604F-375F-4B56-BBA9-C7B275F287D0}"
 EndProject
