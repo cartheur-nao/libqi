@@ -1,12 +1,6 @@
-﻿/*
-**  Copyright (C) 2012 Aldebaran Robotics
-**  See COPYING for the license
-*/
+﻿using qi.Messaging;
 
-using System;
-using qi.Messaging;
-
-namespace qi_client_dotnet
+namespace qi.client
 {
     class Program
     {
@@ -44,7 +38,7 @@ namespace qi_client_dotnet
                 return;
             }
 
-            String textToSend = "plaf";
+            string textToSend = "plaf";
             Message message = new Message();
             Console.WriteLine("Send: " + textToSend);
             message.WriteString(textToSend);

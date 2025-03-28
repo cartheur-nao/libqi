@@ -1,17 +1,11 @@
-﻿/*
-**  Copyright (C) 2012 Aldebaran Robotics
-**  See COPYING for the license
-*/
+﻿using qi.Messaging;
 
-using System;
-using qi.Messaging;
-
-namespace qi_service_dotnet
+namespace qi.service
 {
     unsafe class Program
     {
         // QiMethod
-        static void reply(char* signature, qi_message_t* message_c, qi_message_t* answer_c, void* data)
+        static void Reply(char* signature, qi_message_t* message_c, qi_message_t* answer_c, void* data)
         {
             Message message = new Message(new MessagePrivate(message_c));
             Message answer = new Message(new MessagePrivate(answer_c));
@@ -39,8 +33,8 @@ namespace qi_service_dotnet
 
             // Declare an object and a method
             GenericObject obj = new GenericObject();
-            QiMethod method = new QiMethod(reply);
-            qi.Messaging.Buffer buff = new qi.Messaging.Buffer();
+            QiMethod method = new QiMethod(Reply);
+            Messaging.Buffer buff = new Messaging.Buffer();
 
             // Then bind method to object
             obj.RegisterMethod("reply::s(s)", method, buff);

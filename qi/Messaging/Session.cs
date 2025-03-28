@@ -1,9 +1,4 @@
-﻿/*
-**  Copyright (C) 2012 Aldebaran Robotics
-**  See COPYING for the license
-*/
-
-using System.Text;
+﻿using System.Text;
 using System.Runtime.InteropServices;
 
 namespace qi

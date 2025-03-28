@@ -1,9 +1,4 @@
-﻿/*
-**  Copyright (C) 2012 Aldebaran Robotics
-**  See COPYING for the license
-*/
-
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 
 namespace qi
 {
@@ -13,8 +8,7 @@ namespace qi
         {
             public Buffer(bool ownsHandle = true)
                 : base(ownsHandle)
-            {
-            }
+            {  }
 
             protected override bool ReleaseHandle()
             {

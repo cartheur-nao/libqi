@@ -1,10 +1,4 @@
-﻿/*
-**  Copyright (C) 2012 Aldebaran Robotics
-**  See COPYING for the license
-*/
-
-using System;
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 
 public struct qi_object_t { };
 public struct qi_object_builder_t { };
