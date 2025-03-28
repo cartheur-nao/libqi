@@ -30,7 +30,6 @@ namespace qi.service
                 SDAddr = args[0];
             }
 
-
             // Declare an object and a method
             GenericObject obj = new GenericObject();
             QiMethod method = new QiMethod(Reply);
