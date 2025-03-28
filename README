@@ -1,13 +1,12 @@
-libqi .NET bindings
+## libqi dotnet bindings
 ===================
 
-Warning they are not functional and need to be updated.
+Project dotnet sdk 9.0
 
+## Checks
 
-http://www.mono-project.com/Interop_with_Native_Libraries
+1. You need to add to your PATH environment variable the path to the directory where these can be found:
+ - `qic.dll` / `libqic.so`
+ - `qi.dll` / `libqi.so`
 
-1 - You need to add to your PATH environment variable the path to the directory where these can be found:
- qic.dll / libqic.so
- qi.dll / libqi.so
-
-2 - On windows, qi and qic MUST be compiled in release mode
+2. On windows, qi and qic `MUST` be compiled in release mode?
