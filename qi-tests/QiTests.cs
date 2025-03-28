@@ -6,7 +6,7 @@ namespace qi.tests
     [TestFixture]
     unsafe class InterfaceTests
     {
-        private string[] args;
+        private string[] args = new [] { "0" };
 
         // QiMethod
         public void Reply(char* signature, qi_message_t* message_c, qi_message_t* answer_c, void* data)
