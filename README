@@ -1,7 +1,6 @@
 ## libqi dotnet bindings
-===================
 
-Project dotnet sdk 9.0
+This project supports Nao `qi` via dotnet sdk 9.0.
 
 ## Checks
 
